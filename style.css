@@ -1,0 +1,64 @@
+body {
+
+	font-family: helvetica, sans-serif;
+	font-size:130%;
+
+}
+
+input {
+
+	padding: 5px 5px 12px 5px;
+	font-size: 25px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	width:320px;
+	background-color:#E7E4E4;
+	}
+
+label {
+	
+	position: relative;
+	top:12px;
+	width:200px;
+	float: left;
+	
+}
+
+#wrapper {
+	
+	width: 600px;
+	margin: 0 auto;
+	background-color:lightblue;
+	padding:15px;
+	
+	
+}
+
+.form {
+	
+	margin-bottom: 10px;
+	
+}
+
+#submitButton {
+	
+	width: 130px;
+	margin-left: 200px;
+	background-color:orange;
+}
+
+#error {
+	
+	color: red;
+	font-size: 90% !important;
+	
+}
+
+#success {
+	
+	color: green;
+	font-size: 90% !important;
+	display:none;
+	margin-bottom:20px;
+	
+}
